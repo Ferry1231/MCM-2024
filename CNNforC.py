@@ -112,7 +112,7 @@ for epoch in tqdm(range(100)):
         writer_vi.add_scalar("train_loss",loss.item(),epoch)
         running_loss+=loss.item()
         if i%99==0:
-            #print('[%d,%5d]loss:%0.6f'%(epoch+1,i+1,running_loss/2000))
+            print('[%d,%5d]loss:%0.6f'%(epoch+1,i+1,running_loss/2000))
             running_loss=0
     with torch.no_grad():
         acc=1-Loss_func(model(X_test[0]),Y_test[0])
