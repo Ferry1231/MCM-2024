@@ -1,4 +1,4 @@
-# Mathematical Modeling Project for the 2024 U.S. Undergraduate Mathematical Contest in Modeling (ACM)
+# Mathematical Modeling Project for the 2024 U.S. Undergraduate Mathematical Contest in Modeling (MCM)
 ### Introduction
 This repository contains the Python implementation of Convolutional Neural Network (CNN) and Recurrent Neural Network (RNN) models developed for solving problems encountered in the 2024 U.S. Undergraduate Mathematical Contest in Modeling (ACM).
 ### Requirements
